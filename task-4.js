@@ -12,8 +12,6 @@ let sentence = "I love learning";
 let rev = '';
 for (let i = sentence.length - 1; i >= 0; i--) {
     const result = sentence[i];
-    rev = result + rev;
+    rev +=result;
 }
 console.log(rev);
-
-// console.log(result);
